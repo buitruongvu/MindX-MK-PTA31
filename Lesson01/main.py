@@ -41,5 +41,15 @@ if total > 10:
 else:
     print("Tổng nhỏ hơn hoặc bằng 10")
 
+# Function (Hàm)
+# Hàm có giá trị trả về và hàm không có giá trị trả về
+# type 1: Hàm không có giá trị trả về
+def sayHello ():
+    print("hi Gia Bao")
 
-
+sayHello()
+# type 2: Hàm có giá trị trả về
+def calculateSum (a, b):
+    return a + b
+print("line 54:", calculateSum(10, 5))
+    
